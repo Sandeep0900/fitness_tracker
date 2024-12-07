@@ -6,7 +6,7 @@ import numpy as np
 # Remove app.run() from the original file
 # Create a Streamlit-specific function to handle the form
 def main():
-    st.title("Fitness Traching Test")
+    st.title("Fitness tracking Test")
     
     # Collect input using Streamlit widgets
     age = st.number_input("Age", min_value=1, max_value=120, value=25)
